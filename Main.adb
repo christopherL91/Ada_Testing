@@ -42,7 +42,7 @@ procedure Main is
 procedure inputAges(a : Ages) is
 begin -- inputAges
 	for i in a'Range loop
-		get(test(i));
+		Get(test(i));
 	end loop;
 end inputAges;
 
@@ -62,4 +62,6 @@ begin -- Main
 exception
 	when ADA.IO_EXCEPTIONS.DATA_ERROR =>
 		Ada.Text_IO.Put_Line("Invalid input!");
+	when ADA.IO_EXCEPTIONS.END_ERROR =>
+		Ada.Text_IO.Put_Line("bye bye");
 end Main;
