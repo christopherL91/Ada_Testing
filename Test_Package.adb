@@ -1,3 +1,7 @@
+-- Author: Christopher Lillthors
+-- Date: 2/2 - 15
+-- License: MIT
+
 with Ada.Text_IO;
 
 package body Test_Package is

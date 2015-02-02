@@ -8,5 +8,5 @@ with Test_Package; use Test_Package;
 procedure Main is
 begin -- Main
 	Ada.Text_IO.Put_Line("Hello world");
-	Hello;
+	Hello; -- Calls Test_Package.Hello;
 end Main;
