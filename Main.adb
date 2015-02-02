@@ -3,8 +3,10 @@
 -- License: MIT
 
 with Ada.Text_IO;
+with Test_Package; use Test_Package;
 
 procedure Main is
 begin -- Main
 	Ada.Text_IO.Put_Line("Hello world");
+	Hello;
 end Main;
